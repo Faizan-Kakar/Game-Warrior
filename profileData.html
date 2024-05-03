@@ -1,0 +1,585 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <title>Game Warrior</title>
+	<meta charset="UTF-8">
+	<meta name="description" content="Game Warrior">
+	<meta name="keywords" content="warrior, game, creative, html">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<!-- Favicon -->   
+	<link href="img/favicon.ico" rel="shortcut icon"/>
+
+	<!-- Google Fonts -->
+	<link href="https://fonts.googleapis.com/css?family=Roboto:400,400i,500,500i,700,700i" rel="stylesheet">
+
+	<!-- Stylesheets -->
+	<!-- <link rel="stylesheet" href="css/bootstrap.min.css"/> -->
+	<link rel="stylesheet" href="css/font-awesome.min.css"/>
+	<link rel="stylesheet" href="css/owl.carousel.css"/>
+	<link rel="stylesheet" href="css/style.css"/>
+	<link rel="stylesheet" href="css/animate.css"/>
+
+  <!-- <link rel="stylesheet" href="./style.css"> -->
+
+</head>
+
+
+<style>
+  body {
+    background-image: url('img/review-bg-2.jpg');
+    background-repeat: no-repeat;
+  }
+  label{
+    color: antiquewhite;
+  }
+  </style>
+  
+
+
+
+
+<body>
+<!-- partial:index.partial.html -->
+<html lang="en">
+<head>
+  <!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+  </head>
+
+<body>
+  <!-- <div id="preloder">
+  <div class="loader"></div>
+</div> -->
+
+
+
+<!-- Header section -->
+<header class="header-section">
+  <div class="container">
+    <!-- logo -->
+    <a class="site-logo" href="index.html">
+      <img src="img/logo.png" alt="">
+    </a>
+    <div class="user-panel">
+      <a href="login.html">Login</a>  /  <a href="signUp1.html">As Sponser</a> / <a href="signUp2.html">As Player</a>
+    </div>
+    <!-- responsive -->
+    <div class="nav-switch">
+      <i class="fa fa-bars"></i>
+    </div>
+    <!-- site menu -->
+    <nav class="main-menu">
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="review.html">Games</a></li>
+        <li><a href="categories.html">Video Stream</a></li>
+        <li><a href="community.html">Forums</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+  </div>
+</header>
+<!-- Header section end -->
+
+<div id="form" style="margin-top:50px;">
+  <div class="container">
+    <div class="col-lg-6 col-lg-offset-3 col-md-6 col-md-offset-3 col-md-8 col-md-offset-2">
+      <div id="userform">
+        <ul class="nav nav-tabs nav-justified" role="tablist">
+          <li class="active"><a href="#signup"  role="tab" data-toggle="tab"  style="background-color: #ffb321;"><b>User Profile</b></a></li>
+          <!-- <li ><a href="#login"  role="tab" data-toggle="tab">Log in</a></li>
+          <li><a href="#player"  role="tab" data-toggle="tab" >As Player </a></li> -->
+        </ul>
+        <div class="tab-content">
+          <div class="tab-pane fade active in" id="signup">
+            <h2 class="text-uppercase text-center" style="color: antiquewhite;"> Enter profile Info</h2>
+            <!-- <form id="signup" action="profile.html"> -->
+              <div class="row">
+                <div class="col-xs-12 col-sm-6">
+                  <div class="form-group">
+                    <label>First Name<span class="req">*</span> </label>
+                    <input type="text" class="form-control" id="first_name" required data-validation-required-message="Please enter your name." autocomplete="off">
+                    <p class="help-block text-danger"></p>
+                  </div>
+                </div>
+                <div class="col-xs-12 col-sm-6">
+                  <div class="form-group">
+                    <label> Last Name<span class="req">*</span> </label>
+                    <input type="text" class="form-control" id="last_name" required data-validation-required-message="Please enter your name." autocomplete="off">
+                    <p class="help-block text-danger"></p>
+                  </div>
+                </div>
+              </div>
+              <div class="form-group">
+                <label> Your Email<span class="req">*</span> </label>
+                <input type="email" class="form-control" id="email" required data-validation-required-message="Please enter your email address." autocomplete="off">
+                <p class="help-block text-danger"></p>
+              </div>
+              <div class="form-group">
+                <label> Your Phone<span class="req">*</span> </label>
+                <input type="tel" class="form-control" id="phone" required data-validation-required-message="Please enter your phone number." autocomplete="off">
+                <p class="help-block text-danger"></p>
+              </div>
+              <div class="form-group">
+                <label> Mobile number<span class="req">*</span> </label>
+                <input type="tel" class="form-control" id="mobile" required data-validation-required-message="Please enter your phone number." autocomplete="off">
+                <p class="help-block text-danger"></p>
+              </div>
+              <div class="form-group">
+                <label> Address<span class="req"></span> </label>
+                <input type="tel" class="form-control" id="address" required data-validation-required-message="Please enter your phone number." autocomplete="off">
+                <p class="help-block text-danger"></p>
+              </div>
+
+
+
+
+              <label for="Ranks">How much you rate youself</label><br>
+          <div style="display: flex; flex-direction: row; " >
+            <div>
+              <div class="mb-3  row">
+                <label for="staticEmail" class="col-sm-2 col-form-label">Fighting</label>
+              </div>
+              <div>
+                <input class="form-check-input" type="checkbox" id="Fighting" value="" aria-label="...">
+              </div>
+            </div>
+              <div>
+              <div class="mb-3 row">
+                <label for="staticEmail" class="col-sm-2 col-form-label">Racing</label>
+              </div>
+              <div>
+                <input class="form-check-input" type="checkbox" id="Racing" value="" aria-label="...">
+              </div>
+            </div>
+            <div>
+              <div class="mb-3 row">
+                <label for="staticEmail" class="col-sm-2 col-form-label">Action</label>
+              </div>
+              <div>
+                <input class="form-check-input" type="checkbox" id="Action" value="" aria-label="...">
+              </div>
+            </div>
+          </div>
+
+          <div style="display: flex; flex-direction: row;">
+              <div>
+              <div class="mb-3 row">
+                <label for="staticEmail" class="col-sm-2 col-form-label">Quest</label>
+              </div>
+              <div>
+                <input class="form-check-input" type="checkbox" id="Quest" value="" aria-label="...">
+              </div>
+            </div>
+              <div>
+              <div  class="mb-3 row">
+                <label for="staticEmail" class="col-sm-2 col-form-label">Adventure</label>
+              </div>
+              <div>
+                <input class="form-check-input" type="checkbox" id="Adventure" value="" aria-label="...">
+              </div>
+            </div>
+          </div>
+              
+              <!-- <select style="width: 200px;" name="cars" id="cars">
+                <option value="other">Fighting</option>
+                <option value="10">10</option>
+                <option value="20">20</option>
+                <option value="30">30</option>
+                <option value="40">40</option>
+                <option value="50">50</option>
+                <option value="60">60</option>
+                <option value="70">70</option>
+                <option value="80">80</option>
+                <option value="90">90</option>
+                <option value="100">100</option>
+              </select>
+
+
+            <select style="width: 200px;" name="cars" id="cars">
+              <option value="other">Action</option>
+              <option value="10">10</option>
+              <option value="20">20</option>
+              <option value="30">30</option>
+              <option value="40">40</option>
+              <option value="50">50</option>
+              <option value="60">60</option>
+              <option value="70">70</option>
+              <option value="80">80</option>
+              <option value="90">90</option>
+              <option value="100">100</option>
+            </select>
+
+
+
+            <select style="width: 200px;" name="cars" id="cars">
+            <option value="other">Racing</option>
+            <option value="10">10</option>
+            <option value="20">20</option>
+            <option value="30">30</option>
+            <option value="40">40</option>
+            <option value="50">50</option>
+            <option value="60">60</option>
+            <option value="70">70</option>
+            <option value="80">80</option>
+            <option value="90">90</option>
+            <option value="100">100</option>
+          </select>
+
+
+
+          <select style="width: 200px;" name="cars" id="cars">
+          <option value="other">Adventure</option>
+          <option value="10">10</option>
+          <option value="20">20</option>
+          <option value="30">30</option>
+          <option value="40">40</option>
+          <option value="50">50</option>
+          <option value="60">60</option>
+          <option value="70">70</option>
+          <option value="80">80</option>
+          <option value="90">90</option>
+          <option value="100">100</option>
+        </select>
+
+
+
+        <select style="width: 200px;" name="cars" id="cars" style="color: yellow;">
+        <option value="other">Quest</option>
+        <option value="10">10</option>
+        <option value="20">20</option>
+        <option value="30">30</option>
+        <option value="40">40</option>
+        <option value="50">50</option>
+        <option value="60">60</option>
+        <option value="70">70</option>
+        <option value="80">80</option>
+        <option value="90">90</option>
+        <option value="100">100</option>
+      </select> -->
+
+<!-- type="submit" class="btn btn-larger btn-block"-->
+
+              <div class="mrgn-30-top" style="margin-top: 30px;">
+                <button    id="insertBtn">
+                  <b>Save changes</b>
+                </button>
+              </div>
+            <!-- </form> -->
+          </div>
+
+          
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- /.container --> 
+</div>
+
+
+	<!-- Footer top section -->
+	<section class="footer-top-section" style="margin-top: 100px;">
+		<div class="container">
+			<div class="footer-top-bg">
+				<img src="img/footer-top-bg.png" alt="">
+			</div>
+			<div class="row">
+				<div class="col-lg-4">
+					<div class="footer-logo text-white">
+						<img src="img/footer-logo.png" alt="">
+						<p>Looking for a sponcer than you are in right place. We help you reaching sponcers
+							That will back you either you are a noob or pro gamer</p>
+					</div>
+				</div>
+				<div class="col-lg-4 col-md-6">
+					<div class="footer-widget mb-5 mb-md-0">
+						<h4 class="fw-title">Latest Posts</h4>
+						<div class="latest-blog">
+							<div class="lb-item">
+								<div class="lb-thumb set-bg" data-setbg="img/latest-blog/1.jpg"></div>
+								<div class="lb-content">
+									<div class="lb-date">June 21, 2022</div>
+									<p>will be here soon! Check out the new update patch notes</p>
+									<a href="#" class="lb-author">By Admin</a>
+								</div>
+							</div>
+							<div class="lb-item">
+								<div class="lb-thumb set-bg" data-setbg="img/latest-blog/2.jpg"></div>
+								<div class="lb-content">
+									<div class="lb-date">June 21, 2021</div>
+									<p>Will be announcing the updates of new event shortly </p>
+									<a href="#" class="lb-author">By Admin</a>
+								</div>
+							</div>
+							<div class="lb-item">
+								<div class="lb-thumb set-bg" data-setbg="img/latest-blog/3.jpg"></div>
+								<div class="lb-content">
+									<div class="lb-date">June 21, 2022</div>
+									<p>real-life locations in our collection of online adventure games</p>
+									<a href="#" class="lb-author">By Admin</a>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="col-lg-4 col-md-6">
+					<div class="footer-widget">
+						<h4 class="fw-title">Our Sponcers</h4>
+						<div class="top-comment">
+							<div class="tc-item">
+								<div class="tc-thumb set-bg" data-setbg="img/authors/1.jpg"></div>
+								<div class="tc-content">
+									<p><a href="#">James Smith</a> <span>on</span>  These site will help Pakistan youth to come forword</p>
+									<div class="tc-date">June 21, 2022</div>
+								</div>
+							</div>
+							<div class="tc-item">
+								<div class="tc-thumb set-bg" data-setbg="img/authors/2.jpg"></div>
+								<div class="tc-content">
+									<p><a href="#">John Stella</a> <span>on</span>  Team is really great organizing event</p>
+									<div class="tc-date">June 21, 2018</div>
+								</div>
+							</div>
+							<div class="tc-item">
+								<div class="tc-thumb set-bg" data-setbg="img/authors/3.jpg"></div>
+								<div class="tc-content">
+									<p><a href="#">Mary Smith</a> <span>on</span>  It is such a great iniciative or e-gaming </p>
+									<div class="tc-date">June 21, 2019</div>
+								</div>
+							</div>
+							<div class="tc-item">
+								<div class="tc-thumb set-bg" data-setbg="img/authors/4.jpg"></div>
+								<div class="tc-content">
+									<p><a href="#">James Robert</a> <span>on</span>  Such startUp must be admir on government levels</p>
+									<div class="tc-date">June 21, 2018</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!-- Footer top section end -->
+
+	
+	<!-- Footer section -->
+	<footer class="footer-section">
+		<div class="container">
+			<ul class="footer-menu">
+				<li><a href="index.html">Home</a></li>
+				<li><a href="review.html">Games</a></li>
+				<li><a href="categories.html">Blog</a></li>
+				<li><a href="community.html">Forums</a></li>
+				<li><a href="contact.html">Contact</a></li>
+			</ul>
+			<p class="copyright"><!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | Made with <i class="fa fa-heart-o" aria-hidden="true"></i> by  GrowUp Tech Solutions
+<!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+</p>
+		</div>
+	</footer>
+	<!-- Footer section end -->
+
+  <script type="module">
+    // Import the functions you need from the SDKs you need
+    import { initializeApp } from "https://www.gstatic.com/firebasejs/9.9.4/firebase-app.js";
+    // TODO: Add SDKs for Firebase products that you want to use
+    // https://firebase.google.com/docs/web/setup#available-libraries
+  
+    // Your web app's Firebase configuration
+    const firebaseConfig = {
+      apiKey: "AIzaSyCBWRMjWXOhLJa9qUgkCKCfJ9YEwHb02XA",
+      authDomain: "growup-task.firebaseapp.com",
+      databaseURL: "https://growup-task-default-rtdb.firebaseio.com",
+      projectId: "growup-task",
+      storageBucket: "growup-task.appspot.com",
+      messagingSenderId: "132603178358",
+      appId: "1:132603178358:web:187ecbfccbde8eb31d5e57"
+    };
+  
+    // Initialize Firebase
+    const app = initializeApp(firebaseConfig);
+
+  
+    import { getDatabase, ref, get, set, child }
+              from "https://www.gstatic.com/firebasejs/9.9.4/firebase-database.js"
+  
+          const db = getDatabase();
+  
+          // signUp REFRENCES
+          let firstName = document.getElementById('first_name');
+          let lastName = document.getElementById('last_name');
+          let email = document.getElementById('email');
+          let phone = document.getElementById('phone');
+          let mobile = document.getElementById('mobile');
+          let password = localStorage.getItem('password')
+          let address = document.getElementById('address');
+          let btn = document.getElementById('insertBtn');
+  
+  
+  
+          // REGISTER THE USER IN THE FIREBASE
+            function SaveChanges() { 
+              localStorage.clear();
+             const dbref = ref(db);
+            //  console.log(password);
+
+  
+  // get(child(dbref, "UserLists/" + firstName.value)).then((snapshot) => {
+  //    
+  //     }
+  //     
+  //  get(child(dbref, "UserLists/" + firstName.value)).then=(snapshot) => {
+  //               console.log("First get");
+  //               var dbpass = snapshot.val().Password;
+  //               // console.log(dbpass);
+  //                }
+         if(firstName.value != "")
+         {
+         console.log("Hey how");
+        set(ref(db, `UserLists/` + firstName.value),
+              {
+                  firstName: firstName.value,
+                  lastName : lastName.value,
+                  Email: email.value,
+                  Phone: phone.value,
+                  Mobile: mobile.value,
+                  Password : password,
+                  address: address.value,
+              }).then(() => {
+                  alert('Data has been set')
+                    window.location= 'profile.html'
+                  console.log("data has bee setted")
+              }).catch((error) => {
+                  alert('error' + error);
+              })
+
+                get(child(dbref, "UserLists/" + firstName.value)).then((snapshot) => {
+                  let user = snapshot.val();
+                  localStorage.setItem("user", JSON.stringify(user));
+                  })
+                  
+
+                  let Fighting = document.getElementById("Fighting");
+                  let Racing = document.getElementById("Racing");
+                  let Action = document.getElementById("Action");
+                  let Quest = document.getElementById("Quest");
+                  let Adventure = document.getElementById("Adventure");
+
+                  // CheckBox checking
+
+                  if(Fighting.checked==true)
+                    {
+                      set(ref(db, 'Fchecking/'),
+                     {
+                           checkBox : 'checked'
+                     })
+                    }
+                  else
+                  {
+                    set(ref(db, 'Fchecking/'),
+                     {
+                           checkBox : 'unchecked'
+                     })
+                  }
+
+                  if(Racing.checked==true)
+                    {
+                      set(ref(db, 'Rchecking/'),
+                     {
+                           checkBox : 'checked'
+                     })
+                    }
+                  else
+                  {
+                    set(ref(db, 'Rchecking/'),
+                     {
+                           checkBox : 'unchecked'
+                     })
+                  }
+
+                  if(Action.checked==true)
+                    {
+                      set(ref(db, 'Actchecking/'),
+                     {
+                           checkBox : 'checked'
+                     })
+                    }
+                  else
+                  {
+                    set(ref(db, 'Actchecking/'),
+                     {
+                           checkBox : 'unchecked'
+                     })
+                  }
+
+                  if(Quest.checked==true)
+                    {
+                      set(ref(db, 'Qchecking/'),
+                     {
+                           checkBox : 'checked'
+                     })
+                    }
+                  else
+                  {
+                    set(ref(db, 'Qchecking/'),
+                     {
+                           checkBox : 'unchecked'
+                     })
+                  }
+
+                  if(Adventure.checked==true)
+                    {
+                      set(ref(db, 'Achecking/'),
+                     {
+                           checkBox : 'checked'
+                     })
+                    }
+                  else
+                  {
+                    set(ref(db, 'Achecking/'),
+                     {
+                           checkBox : 'unchecked'
+                     })
+                  }
+                     /*
+                  if(Racing.checked==true)
+                    {
+                      localStorage.setItem('category2', "Racing" )
+                    }
+                  if(Action.checked==true)
+                    {
+                      localStorage.setItem('category3', "Action" )
+                    }
+                if(Quest.checked==true)
+                    {
+                    localStorage.setItem('category4', "Quest" )
+                    }
+                  if(Adventure.checked==true)
+                    {
+                      localStorage.setItem('category5', "Adventure" )
+                    }
+                    */
+  }
+   
+}
+  
+        
+         // Assign the eventv listenere to the btn
+          btn.addEventListener('click', SaveChanges);
+
+
+    
+  </script>
+
+
+<script src="//code.jquery.com/jquery-1.11.3.min.js"></script>
+<!-- Latest compiled and minified JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+</body>
+<!-- partial -->
+  <script  src="./script.js"></script>
+
+</body>
+</html>
